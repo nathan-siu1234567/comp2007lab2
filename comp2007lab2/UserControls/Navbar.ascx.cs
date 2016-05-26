@@ -18,8 +18,8 @@ namespace comp2007lab2
         {
             switch (Page.Title)
             {
-                case "Home Page":
-                    home.Attributes.Add("c;lass", "active");
+                case "Default":
+                    home.Attributes.Add("class", "active");
                     break;
                 case "Contact":
                     contact.Attributes.Add("class", "active");
