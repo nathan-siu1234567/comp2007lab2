@@ -13,5 +13,16 @@ namespace comp2007lab2
         {
 
         }
+
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            //replace with email processing code
+            Response.Redirect("Default.aspx");
+        }
     }
 }
